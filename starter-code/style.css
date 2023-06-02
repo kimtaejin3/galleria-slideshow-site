@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+/* font */
+:root {
+  font-size: 62.5%;
+  font-family: "Libre Baskerville", serif;
+}
+
+/* color */
+:root {
+}
+
+/* reset */
+* {
+  margin: initial;
+  padding: initial;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/* layout */
+.l_wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.l_row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  margin: 0 -20px;
+  align-items: flex-start;
+}
+
+.l_col {
+  width: 25%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* commons */
+.btn {
+  font-size: 1.2rem;
+  color: #7d7d7d;
+  letter-spacing: 2.5px;
+  text-indent: 2.5px;
+  line-height: 1.25;
+  font-family: inherit;
+}
+
+/* component */
+.headings {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-contents {
+  margin-left: auto;
+}
+
+.main {
+  padding-top: 40px;
+}
+
+.card {
+  background-color: orange;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .l_col_tablet {
+    width: 50%;
+  }
+}
